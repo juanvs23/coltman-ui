@@ -1,9 +1,4 @@
-
 import { createContext } from "react";
-import { Context} from "../models";
+import { Context } from "../models";
 
-
-
-export const  MainContext = createContext<Context| undefined>(undefined)
-
-
+export const MainContext = createContext<Context | undefined>(undefined);

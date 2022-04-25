@@ -43,10 +43,9 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  - [Here](https://coltman-ui.surge.sh/) 
+  - [Here](https://coltman-ui.surge.sh/)
 - What was your experience?
   - This project is and simple dashboard with react and styled components
-
 
 ### Built With
 

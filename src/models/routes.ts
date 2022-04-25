@@ -1,4 +1,4 @@
-export interface Router{
-    linkName:string,
-    path:string
+export interface Router {
+  linkName: string;
+  path: string;
 }

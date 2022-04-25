@@ -1,7 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 import { DarkMode } from "../models/context";
 
-export const GlobalStyles= createGlobalStyle<{darkmode:DarkMode['darkmode'],open:boolean}>`
+export const GlobalStyles = createGlobalStyle<{
+  darkmode: DarkMode["darkmode"];
+  open: boolean;
+}>`
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans', sans-serif;
@@ -9,13 +12,15 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu Mono', monospace;
 */
 :root{
-    --main-color:${darkmode=>!darkmode.darkmode?'#fff':'#181818'};
+    --main-color:${(darkmode) => (!darkmode.darkmode ? "#fff" : "#181818")};
 
-    --main-text-color:${darkmode=>darkmode.darkmode?'#ccc':'#333333'};
-    --secondary-color:${darkmode=>!darkmode.darkmode?'#d1d2d5':'#343a40'};
-    --secondary-text-color:${darkmode=>darkmode.darkmode?'#9E9E9E':'#939393'};
-    --width-size:${open=>open.open?'250':'50'}px;
-    --enfasis-text:${darkmode=>darkmode.darkmode?'#5972ff':'#090F31'};
+    --main-text-color:${(darkmode) => (darkmode.darkmode ? "#ccc" : "#333333")};
+    --secondary-color:${(darkmode) =>
+      !darkmode.darkmode ? "#d1d2d5" : "#343a40"};
+    --secondary-text-color:${(darkmode) =>
+      darkmode.darkmode ? "#9E9E9E" : "#939393"};
+    --width-size:${(open) => (open.open ? "250" : "50")}px;
+    --enfasis-text:${(darkmode) => (darkmode.darkmode ? "#5972ff" : "#090F31")};
     --regular-bg:#E0E0E0;
     --regular-bg-hover:#AEAEAE;
     --regular-text:#3F3F3F;
@@ -202,4 +207,4 @@ font-family: 'Ubuntu Mono', monospace;
         padding: 15px 30px;
       }
      
-`
+`;
