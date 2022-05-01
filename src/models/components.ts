@@ -18,13 +18,15 @@ export interface InputColtmanProps{
   error?:boolean,
   iserrorActive?:boolean
   helperText?:string,
-  ref?:React.RefAttributes<any>|null,
+  ref?:React.LegacyRef<any>|null,
   startIcon?: string,
   endIcon?: string,
-  value?:string,
+  value?:string|undefined,
   placeHolder?:string,
   focus?:boolean,
-  hovered?:boolean
+  hovered?:boolean,
+  label?:string,
+  fullWidth?:boolean,
   type?:'email'|'text'|'number',
   multiline?:boolean,
   row?:number

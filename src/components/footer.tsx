@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 const FooterComponent = styled.footer`
-  position: fixed;
+ background-color:var(--main-color);
+ border:none;
+ position:relative;
+ margin-top:-2px;
   bottom: 0;
   width: 100%;
   padding: 24px;

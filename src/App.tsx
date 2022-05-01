@@ -29,11 +29,11 @@ function App() {
     >
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Buttons />} />
+          <Route path="/buttons" element={<Buttons />} />
           <Route path="/colors" element={<Colors />} />
           <Route path="/grid" element={<Grid />} />
           <Route path="/typography" element={<Typography />} />
-          <Route path="/inputs" element={<Inputs />} />
+          <Route path="/" element={<Inputs />} />
           <Route path="/spaces" element={<Spaces />} />
         </Routes>
       </BrowserRouter>

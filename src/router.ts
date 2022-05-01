@@ -14,11 +14,11 @@ export const routers: Router[] = [
   },
   {
     linkName: "Buttons",
-    path: "/",
+    path: "/buttons",
   },
   {
     linkName: "Inputs",
-    path: "/inputs",
+    path: "/",
   },
   {
     linkName: "Grid",

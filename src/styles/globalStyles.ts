@@ -40,10 +40,12 @@ font-family: 'Ubuntu Mono', monospace;
 *::after {
   box-sizing: border-box;
 }
-
+  html,body{
+    overflow-x:hidden;
+  }
     body {
         margin: 0;
-      
+       
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         main{
