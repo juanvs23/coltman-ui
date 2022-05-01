@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://coltman-ui.surge.sh/">
+    <a href="https://afraid-religion.surge.sh/">
       Demo
     </a>
     <span> | </span>
@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+    <a href="https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
       Challenge
     </a>
   </h3>
